@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Simple Paper</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="#" class="logo">
+                    <svg class="logo-icon">
+                        <use xlink:href="sprites.svg#logo">
+                    </svg>
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <svg class="menu-icon cross">
+                            <use xlink:href="sprites.svg#cross">
+                        </svg>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">
+                                Продукция
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">
+                                Материалы
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">
+                                О нас
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__item-link">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                    <svg class="menu-icon burger">
+                        <use xlink:href="sprites.svg#burger">
+                    </svg>
+                </nav>
+                <ul class="user_nav">
+                    <li class="user__nav-item">
+                        <svg class="user__nav-icon">
+                            <use xlink:href="sprites.svg#search">
+                        </svg>
+                    </li>
+                    <li class="user__nav-item">
+                        <svg class="user__nav-icon">
+                            <use xlink:href="sprites.svg#login">
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero__inner">
+                <div class="hero__content">
+                    <h1 class="hero__title">Простые вещи. Из бумаги</h1>
+                    <p class="hero__subtitle">
+                        Бума́га (предположительно от итал. bombagia, первоисточником же считается иранский) — волокнистый материал с минеральными добавками. 
+                    </p>
+                    <a href="#" class="hero__btn btn">Каталог</a>
+                </div>
+                <picture class="hero__img">
+                    <source srcset="images/webp/hero1440.webp" media="(min-width: 1440px)">
+                    <source srcset="images/webp/hero768.webp" media="(min-width: 768px)">
+                    <source srcset="images/webp/hero576.webp" media="(min-width: 576px)">
+                    <img src="images/hero-img.png" alt="hero img">
+                </picture>
+                </div>
+            </div>
+    </section>
+    <div class="describe">
+        <div class="container">
+            <div class="describe__inner">
+                <div class="describe__top">
+                    <div class="describe__top-item">
+                        <img src="images/webp/card.webp" alt="papper" class="describe__top-img">
+                        <dl class="describe__top-text">
+                            <dt>V.1</dt>
+                            <dd>Результат вашего обучения</dd>
+                        </dl>
+                    </div>
+                    <div class="describe__top-item">
+                        <img src="images/webp/card2.webp" alt="papper" class="describe__top-img">
+                        <dl class="describe__top-text">
+                            <dt>V.2</dt>
+                            <dd>Результат вашего обучения</dd>
+                        </dl>
+                    </div>
+                    <div class="describe__top-item">
+                        <img src="images/webp/card3.webp" alt="papper" class="describe__top-img">
+                        <dl class="describe__top-text">
+                            <dt>V.3</dt>
+                            <dd>Результат вашего обучения</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="describe__bottom">
+                    <img src="images/webp/folder.webp" alt="folder" class="describe__bottom-img">
+                    <ul class="describe__bottom-text">
+                        <li class="describe__bottom-title">Максимальная белизна</li>
+                        <li>
+                            Для повышения белизны, гладкости и мягкости в состав бумажной массы вводят белые минеральные вещества: мел, тальк, каолин и др. Эта операция называется наполнением.
+                            Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.
+                        </li>
+                        <li>
+                            Отлив бумажного листа осуществляют на бумагоделательной машине, важнейшей частью которой является непрерывно движущаяся (как транспортер) металлическая или капроновая сетка.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="products">
+        <div class="container">
+            <div class="products__inner">
+                <div class="products__card">
+                    <img src="images/webp/product1.webp" alt="image of the product" class="products__card-img">
+                    <p class="products__card-title">
+                        Упаковка
+                    </p>
+                    <p class="products__card-subtitle">
+                        Тираж: от 50 штук
+                    </p>
+                    <p class="products__card-text">
+                        Сделано из крафт-бумаги или плотного картона. Упаковки имеют различные формы и расцветки, изготовим форму под заказ.
+                    </p>
+                    <a href="#" class="products__card-link">
+                        <svg id="arrow" class="products__card-icon">
+                            <use xlink:href="sprites.svg#arrow"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="products__card">
+                    <img src="images/webp/product2.webp" alt="image of the product" class="products__card-img">
+                    <p class="products__card-title">
+                        Пакеты
+                    </p>
+                    <p class="products__card-subtitle">
+                        Тираж: от 200 штук
+                    </p>
+                    <p class="products__card-text">
+                        С прямоугольным дном. От 10 см до 60 см по высоте. Материалы: картон, крафт-бумага. Различные расцветки и дизайн.
+                    </p>
+                    <a href="#" class="products__card-link">
+                        <svg id="arrow" class="products__card-icon">
+                            <use xlink:href="sprites.svg#arrow"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="products__card">
+                    <img src="images/webp/product3.webp" alt="image of the product" class="products__card-img">
+                    <p class="products__card-title">
+                        Кейсы
+                    </p>
+                    <p class="products__card-subtitle">
+                        Тираж: от 30 штук
+                    </p>
+                    <p class="products__card-text">
+                        Подойдет для документов и других бумаг. Различные расцветки, размеры и плотность. Материал: прессованная бумага.
+                    </p>
+                    <a href="#" class="products__card-link">
+                        <svg id="arrow" class="products__card-icon">
+                            <use xlink:href="sprites.svg#arrow"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="products__card">
+                    <img src="images/webp/product4.webp" alt="image of the product" class="products__card-img">
+                    <p class="products__card-title">
+                        Другие изделия 
+                    </p>
+                    <p class="products__card-subtitle">
+                        Тираж: от 100 штук
+                    </p>
+                    <p class="products__card-text">
+                        Нестандартные упаковки, кейсы и другие изделия различных размеров и конфигураций. Изготовим в кратчайшие сроки.
+                    </p>
+                    <a href="#" class="products__card-link">
+                        <svg id="arrow" class="products__card-icon">
+                            <use xlink:href="sprites.svg#arrow"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="promo">
+        <div class="container">
+            <div class="promo__inner">
+                <picture class="promo__img">
+                    <source srcset="images/webp/book1440.webp" media="(min-width: 1440px)">
+                    <source srcset="images/webp/book768.webp" media="(min-width: 768px)">
+                    <source srcset="images/webp/book576.webp" media="(min-width: 576px)">
+                    <img src="images/book320.png" alt="hero img">
+                </picture>
+                <div class="promo__content">
+                    <h2 class="promo__title">
+                        Simple скетчбук
+                    </h2>
+                    <p class="promo__text">
+                        80 листов, твердая обложка, бумага  Fabriano 200 г/м2. Подойдет и для графики и для акварели. Для самых смелых творческих замыслов!
+                    </p>
+                    <a class="promo__btn btn">
+                        Купить
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="company">
+        <div class="container">
+            <div class="company-slider swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <svg class="company__icon">
+                            <use xlink:href="sprites.svg#hahn">
+                        </svg>
+                    </div>
+                    <div class="swiper-slide">
+                        <svg class="company__icon">
+                            <use xlink:href="sprites.svg#canson">
+                        </svg>
+                    </div>
+                    <div class="swiper-slide">
+                        <svg class="company__icon">
+                            <use xlink:href="sprites.svg#royal">
+                        </svg>
+                    </div>
+                    <div class="swiper-slide">
+                        <svg class="company__icon">
+                            <use xlink:href="sprites.svg#fabriano">
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__top">
+                    <a href="#" class="footer__logo">
+                        <svg class="footer__logo-icon">
+                            <use xlink:href="sprites.svg#footer__logo-icon">
+                        </svg>
+                    </a>
+                    <ul class="footer__icon-list">
+                        <li class="footer__icon-item">
+                            <a href="#" class="footer__icon-link">
+                                <svg class="footer-icon">
+                                    <use xlink:href="sprites.svg#vk"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__icon-item">
+                            <a href="#" class="footer__icon-link">
+                                <svg class="footer-icon">
+                                    <use xlink:href="sprites.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__icon-item">
+                            <a href="#" class="footer__icon-link">
+                                <svg class="footer-icon">
+                                    <use xlink:href="sprites.svg#insta"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__icon-item">
+                            <a href="#" class="footer__icon-link">
+                                <svg class="footer-icon">
+                                    <use xlink:href="sprites.svg#youtube"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        <p class="footer_bottom">
+            Simple &reg; 2024
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>   
+    <script src="js/main.js"></script>
+</body>
+</html>
